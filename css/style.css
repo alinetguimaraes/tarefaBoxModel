@@ -1,0 +1,80 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(98, 165, 98, 0.822);
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    color: rgb(201, 144, 38);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.616);
+    /* sombra do texto */
+    font-weight: 600;
+    /* font-style: italic; */
+
+}
+
+div{
+    width: 25em;
+    height: 25em;
+    /* 400 px */
+
+    margin: auto;
+    /* centralizar a div */
+
+    margin-top: 8em;
+
+    margin-bottom: 13em;
+    /* para deixar o footer para baixo */
+
+    background-image: url(/girassol-unsplash.jpg);
+    background-size: cover;
+    /* para a imagem caber na div */
+
+    text-align: center;
+
+    border-radius: 50%;
+    /* para deixar a div redonda */
+
+    /* borda */
+    border: 5px dashed rgb(0, 128, 0);
+
+    /* box shadow */
+    box-shadow: 0 0 70px 2px white;
+
+    /* outline - fora da borda */
+    outline: 15px groove rgb(219, 159, 47);
+
+}
+
+
+/* ao passar o mouse */
+div:hover{
+    /* borda */
+    border: 5px dashed rgb(219, 159, 47);
+
+    /* outline - fora da borda */
+    outline: 15px groove rgb(0, 128, 0);
+
+    /* box shadow */
+    box-shadow: 0 0 70px 2px orange;
+
+}
+
+
+/* palavra "descodificadas" */
+div p{
+    font-size: 2em;
+    text-align: center;
+    padding: 2em;
+    color: rgb(253, 180, 24);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.26);
+    /* sombra do texto */
+    font-style: oblique;
+    font-weight: 600;
+}
+
+
+footer{
+    text-align: center;
+}
